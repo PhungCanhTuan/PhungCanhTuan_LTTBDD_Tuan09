@@ -1,0 +1,37 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo specific files and build output
+.expo/
+dist/
+web-build/
+
+# Ignore temporary files created by Expo/Metro bundler
+.metro-health-check*
+
+# Native-specific security-related files (keystore, provisioning, certificates)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Ignore backup or original files created by merging or patching
+*.orig.*
+
+# Debug log files
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS system files
+.DS_Store
+*.pem
+
+# Local environment configuration files
+.env*.local
+
+# TypeScript specific: ignore build info files
+*.tsbuildinfo
